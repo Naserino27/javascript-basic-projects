@@ -1,7 +1,7 @@
 // sätt upp count variabeln
 let count = 0;
 
-//välj value och knappar
+//välj value
 const value = document.querySelector("#value");
 //alla knappar
 const btns = document.querySelectorAll(".btn");
