@@ -11,7 +11,7 @@ btn.addEventListener("click", function () {
 
     //loopa 6ggr med ett nytt hexvärde varje gång
     for (let i = 0; i < 6; i++) {
-        //lägg på nytt hexvärde för varje loop
+        //lägg på nytt slumpat hexvärde för varje loop
         hexColor += hex[getRandomNumber()];
     }
 
@@ -20,6 +20,7 @@ btn.addEventListener("click", function () {
     document.body.style.backgroundColor = hexColor;
 });
 
+//funktion för slumpat nummer
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 }
